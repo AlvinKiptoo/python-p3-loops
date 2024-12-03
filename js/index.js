@@ -23,7 +23,7 @@ function fizzbuzzPrinter() {
   }
 }
 
-function fizzbuzz(num) {
+function fizzbuzz() {
   if (num % 3 === 0 && num % 5 === 0) {
     return "FizzBuzz";
   } else if (num % 3 === 0) {
